@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog Pic Generator</title>
+    <link rel="stylesheet" href="stylesheet/style.css">
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="nav-container">
+                <div class="logo">
+                    <h1>Canine Companions</h1>
+                    <p class="subtitle">A cute dog generator</p>
+                <!--/div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Index</a></li>
+                    <li><a href="dog.html">Generator</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="signup.html">Sign up</a></li>
+                </ul>
+            </nav>
+            </div-->
+        </div>
+    </header>
+    <div>
+        <p>
+            If you want a random photo click on 
+            <span>RANDOM</span> or if you want to search
+            for some kind of dog write it on the 
+            <span>SEARCHBAR</span>
+        </p>
+        <form action="">
+            <input type="text" name="search" id="search" placeholder="Write a dog breed">
+
+            <label for="select">How many photos do you want?</label>
+            <select name="select" id="select">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+            </select>
+
+            <button class="search-btn">Search</button>
+        </form>
+        <button class="random-button">RANDOM</button>
+        <div class="dog-img">
+        </div>
+    </div>
+    <script src="javascript/dogApi.js"></script>
+</body>
+</html>
